@@ -38,12 +38,12 @@ Here we have the same issue. These values should be calculated through friction 
 
 And then we have the material, that is not more than the colour of the geometric visual shape. If its a dae, then it serves no purpose because the colours are enmbeded in the 3Dfile.
 
-Add the following tag in URDF file. 
-<gazebo reference="base_link">
-    <kp>100000.0</kp>
-    <kd>100000.0</kd>
-    <mu1>10.0</mu1>
-    <mu2>10.0</mu2>
-    <material>Gazebo/Grey</material>
+Add the following tag in URDF file.  
+<gazebo reference="base_link">  
+    <kp>100000.0</kp>  
+    <kd>100000.0</kd>  
+    <mu1>10.0</mu1>  
+    <mu2>10.0</mu2>  
+    <material>Gazebo/Grey</material>  
 </gazebo>
 
