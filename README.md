@@ -10,6 +10,9 @@ The course covers:-
 
 **My Key Take Aways:-**
 
+- to check the model in the world : rosservice call /gazebo/get_world_properties "\{\}"
+- to delete the model (eg: Mira) in the world : rosservice call /gazebo/delete_model "model_name: 'mira'"
+
 - Unit 2: Adapt URDF for Gazebo Simulator
 
 To make a model appear in Gazebo you need to add the following:
